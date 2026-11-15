@@ -1,22 +1,26 @@
 <p align="center">
-  <img src="docs/media/banner.webp" alt="Horizon: the game you know, rebuilt in Rust" width="100%">
+  <img src="docs/media/banner.webp" alt="MC Rust Edition, a community fork of Horizon" width="100%">
 </p>
 
 <p align="center">
-  <b>Minecraft: Java Edition 26.3, rebuilt from scratch in Rust.</b><br>
-  The same rules and the same terrain, your own worlds, in one native program without Java.
+  <b>MC Rust Edition — a community-maintained fork of Horizon.</b><br>
+  A native Rust client for Minecraft: Java Edition 26.3, built on the MIT-licensed Horizon codebase.
 </p>
 
 <p align="center">
-  <a href="https://playhorizon.dev"><img src="docs/media/readme/download-button.png" alt="Download the Horizon launcher for Windows, macOS and Linux" width="400"></a>
+  <a href="https://github.com/kritikakumari0972-bit/mc-rust/releases"><b>Fork releases</b></a> ·
+  <a href="https://github.com/kritikakumari0972-bit/mc-rust/actions"><b>Builds</b></a> ·
+  <a href="https://github.com/horizon-rust/horizon"><b>Original Horizon project</b></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/horizon-rust/horizon/stargazers"><img src="https://img.shields.io/github/stars/horizon-rust/horizon?style=flat&color=F0795A" alt="GitHub stars"></a>
-  <a href="https://discord.gg/playhorizon"><img src="https://img.shields.io/discord/1559227979002028052?label=Discord&logo=discord&logoColor=white&color=5865F2" alt="Discord"></a>
-  <a href="https://github.com/horizon-rust/horizon/graphs/contributors"><img src="https://img.shields.io/github/contributors/horizon-rust/horizon?color=2EA44F" alt="Contributors"></a>
+  <a href="https://github.com/kritikakumari0972-bit/mc-rust/stargazers"><img src="https://img.shields.io/github/stars/kritikakumari0972-bit/mc-rust?style=flat&color=F0795A" alt="MC Rust Edition stars"></a>
+  <a href="https://discord.gg/playhorizon"><img src="https://img.shields.io/discord/1559227979002028052?label=Upstream%20Discord&logo=discord&logoColor=white&color=5865F2" alt="Upstream Horizon Discord"></a>
+  <a href="https://github.com/kritikakumari0972-bit/mc-rust/graphs/contributors"><img src="https://img.shields.io/github/contributors/kritikakumari0972-bit/mc-rust?color=2EA44F" alt="MC Rust Edition contributors"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/licence-MIT-blue" alt="MIT licence"></a>
 </p>
+
+> **Fork status:** This repository is based on [horizon-rust/horizon](https://github.com/horizon-rust/horizon). The engine, launcher architecture, and original contributor credits remain from that upstream project; this is not a clean-room rewrite. Fork-specific signed releases and automatic updates are not configured yet. The launcher currently reads upstream signed builds until this fork has its own release-signing key.
 
 <p align="center">
   <a href="https://playhorizon.dev"><b>Website</b></a> ·
@@ -57,7 +61,7 @@
   <sub>Against Java Edition with Sodium, Lithium, FerriteCore and ImmediatelyFast on a Ryzen 7 9800X3D with an RTX 5080: the title screen in about 3 seconds instead of 11, and 31 to 38 percent more frames per second across render distances.</sub>
 </p>
 
-<h2 align="center">Made by the Horizon Team</h2>
+<h2 align="center">Original Horizon Team (upstream credits)</h2>
 
 <table align="center">
   <tr>
