@@ -1,7 +1,9 @@
-# Horizon launcher
+# MC Rust Edition Launcher
 
-A small desktop app that installs Horizon builds, prepares them from your own copy of
-Minecraft, and starts the client or a dedicated server. Built with [GPUI Fast](https://github.com/longbridge/gpui-fast),
+The desktop launcher for this community-maintained fork of [Horizon](https://github.com/horizon-rust/horizon).
+It installs game builds, prepares resources from your own Minecraft installation, and starts the Rust client or
+a dedicated server. The original Horizon launcher architecture and MIT attribution are retained. Built with
+[GPUI Fast](https://github.com/longbridge/gpui-fast),
 a fork of Zed's UI framework [GPUI](https://www.gpui.rs) that draws unchanged views from the last frame;
 it has its own Cargo workspace and is not part of the game's builds.
 
@@ -10,6 +12,8 @@ it has its own Cargo workspace and is not part of the game's builds.
 The opening, then Play ([clip](docs/opening.webm)):
 
 ![Opening](docs/opening-1.png)
+
+> **Fork update status:** The version list and automatic updater still use Horizon's upstream signed-release feed. This fork does not yet have its own release-signing key or signed release channel. To try a build produced from this repository, use **Import a game build…**; do not disable signature checks or treat an unsigned archive as an automatic update.
 
 ## What it does
 
